@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+ div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+ blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Basic tag styling */
+b {
+	font-weight: 800;
+}
+header {
+	width: 100%;
+	height: 300px;
+	background-color: #d6d6d6;
+}
+h1 {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px 0px;
+}
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	margin: 20px 0px;
+}
+p {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.landingPageMainSectionSubb {
+	display: flex;
+	flex-wrap: wrap;
+	width: 612px;
+	margin: 40px auto;
+}
+.cukLandingButtons {
+	width:200px;
+	height: 200px;
+	background-color:#d6d6d6;
+	margin-bottom: 6px;  
+}
+.marLeft {
+	margin-left: 6px;
+}
+.cukMainTeam {
+	display: flex;
+	flex-wrap: wrap;
+	width: 612px;
+	margin: 40px auto;
+}
+.teamMembers {
+	width: 140px;
+}
+.marLeftTeamMember {
+	margin-left:17px; 
+}
+.imgTeam {
+	width: 100px;
+	height: 140px;
+	background-color:#d6d6d6;
+	margin-left: 6px; 
+}
+.teamMembers p {
+	text-align: left;
+	margin: 10px 0px;
+	width: 100%;
+}
+.mainContact {
+	width: 100%;
+	background-color: #000;
+}
+.mainContact p {
+	color: #fff;
+}
+.mainContact h1 {
+	color: #fff;
+	padding-top: 30px;
+}
