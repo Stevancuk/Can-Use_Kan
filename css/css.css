@@ -54,12 +54,14 @@ b {
 }
 header {
 	width: 100%;
+	background-color: transparent;
+	display: flex;
+	
 }
 h1 {
 	font-size: 20px;
 	font-weight: 600;
 	text-align: center;
-	margin: 20px 0px;
 }
 h2 {
 	font-size: 18px;
@@ -254,9 +256,6 @@ header img {
 	width: 50%;
 	margin: 50px auto 30px auto;
 }
-#cuk_web_calculators_page .shadowBrokenImg1 {
-	margin-bottom: -60px;
-}
 .arrowDownISFL {
 	width: 30px;
 	margin: 50px auto 30px auto;
@@ -264,9 +263,16 @@ header img {
 .arrowDownISFL img {
 	width: 100%;
 }
-#cuk_isfl_page .shadowBrokenImg1 {
-	margin-bottom: -80px;
+.headerSections {
+	height: 100%;
 }
-#cuk_saas_page .shadowBrokenImg1 {
-	margin-bottom: -80px;
+.mainSections h1 {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.marBott {
+	margin-bottom: -4%;
+}
+.mainSections {
+	background-color: transparent;
 }
