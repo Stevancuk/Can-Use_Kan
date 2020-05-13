@@ -97,6 +97,11 @@ header img {
 	margin-bottom: 2px;
 	cursor: pointer;  
 }
+.projectsButton {
+	width: 84%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
 .marLeft {
 	margin-left: 6px;
 }
@@ -275,4 +280,80 @@ header img {
 }
 .mainSections {
 	background-color: transparent;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	.landingPageMainSectionSubb {
+    width: 602px;
+	}
+	#cuk_main_section_full_scale_app {
+	margin-left: 2px;	
+	}
+	#cuk_main_section_interactive_solutions {
+	margin-left: 2px;
+	}
+	#cuk_main_section_design {
+	margin-left: 2px;	
+	}
+}
+@media only screen and (max-width: 680px) {
+	.landingPageMainSectionSubb {
+    width: 300px;
+	}
+	#cuk_main_section_full_scale_app {
+	margin-left: 0px;	
+	}
+	#cuk_main_section_interactive_solutions {
+	margin-left: 0px;
+	}
+	#cuk_main_section_design {
+	margin-left: 0px;	
+	}
+	.cukMainTeam {
+    width: 400px;
+	}
+	.teamMembers {
+    width: 190px;
+	}
+	.marLeftTeamMember {
+    margin-left: 0px;
+	}
+	.member2 {
+	margin-left: 20px;	
+	}
+	.member4 {
+	margin-left: 20px;	
+	}
+	.imgTeam {
+	margin: 0px auto;
+	width: 	140px;
+	height: 170px;	
+	}
+	.teamMembers h2 {
+	text-align:center;	
+	}
+	.teamMembers p {
+	text-align:center;	
+	}
+}
+@media only screen and (max-width: 470px) {
+	.cukMainTeam {
+    width: 280px;
+	}
+	.teamMembers {
+    width: 100%;
+	}
+	.member2 {
+	margin-left:0px;	
+	}
+	.member4 {
+	margin-left:0px;	
+	}
+	.imgTeam {
+	margin: 0px auto;
+	width: 	100%;
+	height: 360px;	
+	}
 }
